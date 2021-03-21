@@ -7,6 +7,10 @@ import NavbarBrand  from 'react-bootstrap/NavbarBrand';
 import './App.css';
 
 import Footer from './components/Footer';
+import AboutMe from './pages/AboutMe';
+import PortfolioPage from './pages/PortfolioPage';
+import ContactPage from './pages/ContactPage';
+import ResumePage from './pages/ResumePage';
 
 // import fontawewome for footer icons
 
@@ -55,6 +59,11 @@ class App extends React.Component {
                 </Nav>
               </Navbar.Collapse>
             </Navbar>
+
+            <Route path="/" exact render={() => <AboutMe title={this.state.about.title} subTitle={this.state.about.subTitle} text={this.state.about.text} />}/>
+            <Route path="/portfolio" render={() => <PortfolioPage title={this.state.portfolio.title} />}/>
+            <Route path="/contact" render={() => <ContactPage title={this.state.contact.title} />}/>
+            <Route path="/resume" render={() => <ResumePage title={this.state.resume.title} />}/>
 
             <Footer/>
 
