@@ -4,8 +4,12 @@ import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import NavbarBrand  from 'react-bootstrap/NavbarBrand';
-
 import './App.css';
+
+import Footer from './components/Footer';
+
+// import fontawewome for footer icons
+
 
 class App extends React.Component { 
 
@@ -41,7 +45,7 @@ class App extends React.Component {
             <Navbar className='border-bottom' bg='transparent' expand='lg'>
               <Navbar.Brand>Braudy Herrera</Navbar.Brand>
 
-              <Navbar.Toggle aria-controls="navbar-toggle"/>
+              <Navbar.Toggle className="border-0" aria-controls="navbar-toggle"/>
               <Navbar.Collapse id="navbar-toggle">
                 <Nav className="ml-auto">
                   <Link className="nav-link" to="/">About</Link>
@@ -51,6 +55,9 @@ class App extends React.Component {
                 </Nav>
               </Navbar.Collapse>
             </Navbar>
+
+            <Footer/>
+
           </Container> 
         </Router>
     );
