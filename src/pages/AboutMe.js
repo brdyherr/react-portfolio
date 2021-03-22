@@ -1,9 +1,10 @@
 import React from 'react';
+import Hero from '../components/Hero';
 
 function AboutMePage(props) {
 
     return(
-        <p>AboutMePage</p>
+        <Hero title={props.title} text={props.text} />
     );
 }
 

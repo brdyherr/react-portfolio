@@ -22,13 +22,14 @@ class App extends React.Component {
     this.state = {
       title: "Braudy Herrera",
       headerLinks: [
-       { title: 'About Me', path: '/' },
-       { title: 'Portfolio', path: '/portfolio' },
-       { title: 'Contact', path: '/contact' },
-       { title: 'Resume', path: '/resume' }
+        { title: 'About Me', path: '/' },
+        { title: 'Portfolio', path: '/portfolio' },
+        { title: 'Contact', path: '/contact' },
+        { title: 'Resume', path: '/resume' }
       ],
       about: {
         title: 'About Me',
+        text: 'This will hold a short Bio about myself.',
       },
       portfolio: {
         title: 'My Projects',
