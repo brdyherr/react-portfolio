@@ -10,10 +10,8 @@ function Hero(props) {
         <Jumbotron>
             <Container>
                 <Row>
-                    <Col>
-                        { <img src= {require(`../assets/bhheadshot.jpg`)} alt={Image} /> }
+                    <Col md='auto'>
                         { props.title && <h1>{props.title}</h1> }
-                        { props.text && <h3>{props.text}</h3> }
                     </Col>
                 </Row>
             </Container> 

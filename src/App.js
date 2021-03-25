@@ -29,10 +29,11 @@ class App extends React.Component {
       ],
       about: {
         title: 'About Me',
-        text: 'This will hold a short Bio about myself.',
+        text: '',
       },
       portfolio: {
         title: 'My Projects',
+        
       },
       contact: {
         title: 'Let\'s Talk',
