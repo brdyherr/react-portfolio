@@ -2,7 +2,7 @@
 
 ## Description
 
-This weather application allows a user to search for weather worldwide. By typing one's desired city name and clicking the search button, a user will see the current weather along with the 5-day forecast.
+This React portfolio features my latest projects and displays my range of skills. Feel free to access my personal profile links at the bottom of each page or submit the contact form to reach out!
 
 ## Technologies Used
 
@@ -18,5 +18,5 @@ This weather application allows a user to search for weather worldwide. By typin
 
 ## Preview
 
-![image](./assets/reactportfolioimage.JPG)
+![image](src\reactportfolioimage.JPG)
 
