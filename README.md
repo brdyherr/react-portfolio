@@ -18,5 +18,5 @@ This weather application allows a user to search for weather worldwide. By typin
 
 ## Preview
 
-![image](./assets/images/reactportfolioimage.JPG)
+![image](./assets/reactportfolioimage.JPG)
 
